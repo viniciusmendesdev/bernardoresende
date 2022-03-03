@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --azulClaro: #91c8ff;
+    --azul: #4380bd;
+}
+
+.btn{
+    background-color: var(--azulClaro);
+}
+
+header{
+    background-color: #000;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 2px solid var(--azulClaro);
+
+}
+
+header .btn{
+    right: 50px; 
+    position:absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-weight: 700;
+    background-color: var(--azulClaro);
+    border: 0;
+    border-radius:3px;
+    padding:10px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu{
+    width: 100%;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner{
+    width: 100%;
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+
+}
+
+#banner .container{
+    padding: 50px;
+    max-width: 1000px;
+}
+
+#banner h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 46px;
+    text-shadow: 2px 2px 15px #000;
+}
+
+#banner p{
+    color: #fff;
+    font-size:20px;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 8px #000;
+}
+
+#banner .col-sm h3{
+    text-align: center;
+}
+
+#banner .col-sm p{
+    text-shadow: none;
+    color: #666;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+
+#banner .container .row .col-sm-7{
+        padding: 0 50px 0 0;
+}
+
+#banner .container .row .col-sm{
+    padding: 25px;
+    border-radius: 4px;
+}
+
+#banner h3{
+    letter-spacing: -1px;
+}
+
+#banner .form-control{
+    padding: 25px 25px 25px 10px;
+}
+
+#banner .btn{
+    width: 100%;
+    font-weight: 800;
+}
+
+#esp{
+    padding: 50px;
+    background-color: #f9f9f9;
+
+}
+
+#esp h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: var(--azul);
+}
+
+#esp h2.card-text{
+    font-size: 18px;
+    text-align: center;
+}
+
+#esp .col-md-3 a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+#contato{
+    background-color: var(--azulClaro);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#contato:hover{
+    background-color: var(--azul);
+    opacity: 1s;
+}
+
+#contato .container{
+    padding: 20px;
+}
+
+#contato h1{
+    margin: 0;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 36px;
+}
+
+#contato a:hover{
+    text-decoration: none;
+
+}
+
+#bernardo{
+    background-color:#000;
+}
+
+#bernardo hr{
+    background-color:var(--azulClaro);
+}
+
+#bernardo .container{
+    max-width: 1200px;
+}
+
+#bernardo .col-sm-7{
+    padding: 50px;
+}
+
+#bernardo h1{
+    color: var(--azulClaro);
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+#bernardo h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#bernardo p{
+    color: #a1a1a1;
+    font-size: 20px;
+}
+
+#bernardo .btn{
+    color: #fff;
+}
+
+#insta{
+
+}
+
+#mapa h1{
+    font-weight: 300;
+    padding: 50px;
+    text-align: center;
+    color: var(--azul);
+}
+
+#mapa iframe{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--azul);
+    color: #fff;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+
+footer .container{
+    padding: 50px;
+}
+
+#footerCopy{
+    width: 100%;
+    text-align: center;
+    background-color:#2e547a;
+    padding: 10px;
+}
+
+#footerCopy p{
+    margin:0;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#footerCopy p a{
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        text-align: center;
+    }
+
+    header img{
+        width: 200px;
+        height: auto;
+    }
+    header .btn{
+        display: none;
+    }
+
+    #banner .container{
+        padding: 30px;
+    }
+
+    #banner .container .row {
+        padding: 0;
+    }
+
+    #banner .container .row .col-sm{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #banner .container .row .col-sm-7{
+        width:100%;
+        padding:10px;
+        margin-bottom: 20px;
+    }
+
+    #banner h1{
+        font-size:28px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #banner h3{
+        font-size: 20px;
+    }
+
+    #banner p{
+        width: 100%;
+        margin: 0;
+    }
+
+    
+
+    #esp h1{
+        font-size: 30px;
+    }
+
+    #contato h1{
+        font-size: 24px;
+    }
+
+    #mapa h1{
+        font-size: 24px;
+    }
+
+    #bernardo img{
+        width: 100%;
+    }
+
+    footer .container{
+        padding: 30px;
+    }
+
+    footer .col-sm-6{
+        margin-bottom: 30px;
+    }
+
+    footer .col-sm.links{
+        margin-bottom: 30px;
+    }
+
+}
